@@ -48,7 +48,8 @@
 	left: 0;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center; 
+    //background: transparent;
 	background: rgba($overlay-background-color, $overlay-opacity);
 
 	opacity: 0;
@@ -90,3 +91,15 @@
 		font-size: $grid-item-subtitle-large;
 	}
 }
+
+// .portfolio-item__image img {
+// 	filter: grayscale(100%);
+// 	transition: filter 0.5s ease, transform 0.5s ease;
+// 	transform: scale(1);
+// }
+
+// .portfolio-item__image:hover img {
+// 	filter: grayscale(0%);
+// 	transform: scale(1.05);
+// 	background: none; /* Ensure no background blending */
+// }

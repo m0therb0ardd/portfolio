@@ -157,16 +157,16 @@
 		display: block;
 		padding: 0;
 		line-height: 1.5;
-		font-size: $p-small*0.85;
+		font-size: $p-small*1;
 		line-height: $p-lineheight;
 		overflow: auto;
 
 		@include mq(tabletp) {
-			font-size: $p-medium*0.85;
+			font-size: $p-medium*1;
 		}
 
 		@include mq(laptop) {
-			font-size: $p-large*0.85;
+			font-size: $p-large*1;
 		}
 
 		.highlight {
@@ -332,3 +332,45 @@
 		height: 100%;
 	}
 }
+
+.about-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 20px;
+  }
+  
+  .about-text {
+	flex: 1;
+	max-width: 60%; /* Adjust text width */
+	margin-right: 20px;
+	line-height: 1.6;
+  }
+  
+  .about-photo {
+	flex: 1;
+	max-width: 35%; /* Adjust image width */
+	text-align: center;
+  }
+  
+  .about-photo img {
+	max-width: 100%; /* Make the image responsive */
+	height: auto;
+	border-radius: 8px; /* Optional: Add rounded corners */
+  }
+  
+  @media (max-width: 768px) {
+	.about-container {
+	  flex-direction: column; /* Stack columns on smaller screens */
+	}
+  
+	.about-text, .about-photo {
+	  max-width: 100%;
+	  margin: 0 0 20px 0; /* Adjust spacing for mobile */
+	}
+  }
+
+  
+  
+

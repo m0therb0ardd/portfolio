@@ -1,35 +1,37 @@
 ---
-title: About Index
-subtitle: Index is a minimal, fixed sidebar grid portfolio Jekyll theme. Perfect for designers, artists, photographers and developers to use for their portfolio website.
-description: Index is a minimal, fixed sidebar grid portfolio Jekyll theme.
+title: 
+subtitle: 
+description: currently pursuing a Master of Science in Robotics at Northwestern
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
-![](/images/demo/demo-landscape.jpg)
+<div class="content-wrap">
+  <div class="about-container">
+    <div class="about-text">
+      <p>
+        I earned my Bachelor of Science in Operations Research from Columbia University, where I focused on optimization techniques and decision-making frameworks to design systems that facilitate the efficient movement of people through space. This foundation deepened my fascination with movement and embodiment—how we navigate and express ourselves within physical spaces and through our bodies.
+      </p>
 
-## Features
+     
 
-Index is packed with powerful features to showcase your work:
+      <p>
+        After graduating, I worked for two years with the data analytics team at Planned Parenthood of Illinois, where I focused on maximizing patient access to vital healthcare services in the aftermath of the Dobbs decision. That experience strengthened my commitment to bodily autonomy and underscored the profound connections between movement, accessibility, and human resilience.
+      </p>
 
-* Beautiful, minimal design
-* Fixed sidebar menu
-* Two-column masonry grid layout
-* Responsive – works perfectly on all devices
-* Portfolio post type
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+      <p>
+        Now pursuing a Master of Science in Robotics at Northwestern University, I am exploring how robotic performance can challenge and redefine our perceptions of embodiment. My work delves into themes of bodily autonomy and expression, drawing on my interests in performance art, kinetic sculpture, and interactive media.
+      </p>
 
-## Get Index
+      <p>
+        If you’re interested in collaborating, I’d love to connect!
+      </p>
+    </div>
 
-Index is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
 
-<a href="https://jekyllthemes.io/theme/index-portfolio-jekyll-theme" class="button button--large">Get This Theme</a>
+    <div class="about-photo">
+      <img src="/assets/images/bio_photo.png" alt="Catherine Maglione" />
+    </div>
+  </div>
+</div>
+
+
