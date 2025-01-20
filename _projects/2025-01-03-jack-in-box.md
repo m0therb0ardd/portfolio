@@ -14,8 +14,9 @@ categories:
 This project involves simulating the dynamics of a jack in the box using Lagrangian mechanics, symbolic differentiation, and constraint handling. The goal was to model the interactions between the box and the jack, enforce constraints during impacts, and analyze the system's behavior.
 
 ---
+![Jack Box]({{site.baseurl}}/assets/images/jack_beautiful.gif)
 
-![Jack Box](/assets/images/jack_beautiful.gif)
+
 
 ### **Set Up**
 

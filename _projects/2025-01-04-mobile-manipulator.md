@@ -19,7 +19,8 @@ This project focused on developing software to control the **youBot mobile manip
 
 The youBot picks up a block from a specified location, transports it to a target position, and releases it. These capabilities were visualized in the **CoppeliaSim simulation environment**.
 
-![Mobile Manipulator Simulation](/assets/images/output.gif)
+![Mobile Manipulator Simulation]({{ site.baseurl }}/assets/images/output.gif)
+
 
 ---
 

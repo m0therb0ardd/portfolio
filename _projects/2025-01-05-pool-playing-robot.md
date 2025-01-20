@@ -24,7 +24,7 @@ This project was designed to make the Franka Emika Robot play a modified game of
 --
 
 <video controls width="800" style="display: block; margin: 0 auto;">
-  <source src="/assets/images/pool.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/images/pool.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

@@ -29,8 +29,9 @@ featured_image: /images/demo/demo-landscape.jpg
 
 
     <div class="about-photo">
-      <img src="/assets/images/bio_photo.png" alt="Catherine Maglione" />
+      <img src="{{ site.baseurl }}/assets/images/bio_photo.png" alt="Catherine Maglione" />
     </div>
+
   </div>
 </div>
 
