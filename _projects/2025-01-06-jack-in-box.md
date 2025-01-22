@@ -2,7 +2,7 @@
 layout: project
 title: "Physics Simulator"
 subtitle: "Python, Sympy, Dynamics, Processing"
-date: 2024-01-01
+date: 2025-01-06
 description: "This project simulates a jack falling inside a rotating box using constrained Euler Lagrange equations to calculate and simulate impacts."
 featured_image: "/assets/images/jack_beautiful.gif" # Replace with your thumbnail image or GIF
 categories:
@@ -17,10 +17,10 @@ This project involves simulating the dynamics of a jack in the box using Lagrang
 ![Jack Box]({{site.baseurl}}/assets/images/jack_beautiful.gif)
 
 
-
+<!-- 
 ### **Set Up**
 
-This diagram shows how I labeled and oriented my world frame, box frame, box side frames, jack frame, and jack endpoint frames.
+This diagram shows how I labeled and oriented my world frame, box frame, box side frames, jack frame, and jack endpoint frames. -->
 
 #### **Box Frames from Center of Box**
 ```python
@@ -61,7 +61,8 @@ $$
 
 
 Using symbolic differentiation, I derived the following:
-- Partial derivatives of \(L\) with respect to the generalized coordinates (\(q\)) and their time derivatives (\(\dot{q}\)).
+- Partial derivatives of $(L)$ with respect to the generalized coordinates $(q)$ and their time derivatives $(\dot{q})$
+.
 - The equations of motion:
 
 $$
@@ -70,7 +71,8 @@ $$
 
 
 
-These expressions were set equal to the external forces and torques acting on the system, allowing the accelerations (\(\ddot{q}\)) to be solved symbolically.
+These expressions were set equal to the external forces and torques acting on the system, allowing the accelerations $(\ddot{q})$
+ to be solved symbolically.
 
 External forces included:
 - Gravity acting on the box and jack.
@@ -93,7 +95,7 @@ There are 16 total constraints to account for all sides of the jack and box.
 
 - **Impact Update:**  
   The `impact_update` function computes post-impact velocities by solving the following:
-  - The impact equations with Lagrange multipliers (\(\lambda\)) to enforce the constraints.
+  - The impact equations with Lagrange multipliers $(\lambda)$ to enforce the constraints.
   - The Hamiltonian to ensure energy conservation.
 
 
