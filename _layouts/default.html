@@ -32,7 +32,10 @@
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
-	<meta property="og:description" content="{{ page.description | strip_html | xml_escape }}" />
+	<!-- <meta property="og:description" content="{{ page.description | strip_html | xml_escape }}" /> -->
+	<meta property="og:description" content="Catherine's portfolio." />
+
+
 	<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
 
 	{% if site.data.settings.font_settings.font_embed %}
@@ -77,6 +80,15 @@
 		}
 		});
 	</script>
+
+	<!-- KaTeX CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+	<!-- KaTeX Auto-Render Extension -->
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+			onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});">
+	</script>
+
 
 	
 	
