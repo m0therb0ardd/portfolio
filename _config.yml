@@ -2,6 +2,7 @@ site: Catherine Maglione
 
 url: https://catherinemaglione.com
 baseurl: 
+description: "hello"
 
 collections:
   pages:

@@ -53,11 +53,12 @@ g_b_jright = g_bj * g_jjright
 ### **Approach**
 
 #### **1. Lagrangian Dynamics**
-The system's Lagrangian was defined as the difference between kinetic energy $KE$ and potential energy $PE$:
+The system's Lagrangian was defined as the difference between kinetic energy KE and potential energy PE:
 
 $$
-L = KE - PE
+L = \text{KE} - \text{PE}
 $$
+
 
 Using symbolic differentiation, I derived the following:
 - Partial derivatives of \(L\) with respect to the generalized coordinates (\(q\)) and their time derivatives (\(\dot{q}\)).
@@ -66,6 +67,7 @@ Using symbolic differentiation, I derived the following:
 $$
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}} \right) - \frac{\partial L}{\partial q} = F_{\text{external}}
 $$
+
 
 
 These expressions were set equal to the external forces and torques acting on the system, allowing the accelerations (\(\ddot{q}\)) to be solved symbolically.
@@ -83,6 +85,7 @@ Constraints were added to ensure the jack and box interact correctly. These cons
 $$
 \phi_1 = y_j^{\text{bottom}} - y_b^{\text{bottom}}
 $$
+
 There are 16 total constraints to account for all sides of the jack and box.
 
 - **Constraint Violations:**  
