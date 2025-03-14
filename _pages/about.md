@@ -15,7 +15,7 @@ featured_image: /images/demo/demo-landscape.jpg
       </p>
 
       <p>
-        After graduating, I spent two years working for two years with the data analytics team at Planned Parenthood of Illinois, where I focused on maximizing patient access to vital healthcare services in the aftermath of the Dobbs decision. That experience strengthened my commitment to bodily autonomy and underscored the profound connections between movement, accessibility, and human resilience.
+        After graduating, I spent two years working with the data analytics team at Planned Parenthood of Illinois, where I focused on maximizing patient access to vital healthcare services in the aftermath of the Dobbs decision. That experience strengthened my commitment to bodily autonomy and underscored the profound connections between movement, accessibility, and human  resilience.
       </p>
 
       <p>
