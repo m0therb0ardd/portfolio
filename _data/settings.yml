@@ -13,8 +13,8 @@ menu_settings:
       url: '/'
     - title: 'About'
       url: '/about'
-    - title: 'Contact'
-      url: '/contact'
+    # - title: 'Contact'
+    #   url: '/contact'
 
 grid_settings:
   overlay_opacity: 0.8
@@ -53,6 +53,10 @@ social_settings:
   spotify_url: ''
   bandcamp_url: ''
   linkedin_url: 'https://www.linkedin.com/in/catherine-maglione-5b56078b/'
+  resume_url: '/assets/images/resume.pdf'
+  email_url: 'mailto:maglionecatherine@gmail.com'
+
+
 
 
 color_settings:

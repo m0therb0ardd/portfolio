@@ -1,4 +1,4 @@
-<ul class="socials">
+<!-- <ul class="socials">
 	{% for url in site.data.settings.social_settings %}
 	{% if url[1] != '' %}
 	<li class="socials__item">
@@ -9,3 +9,26 @@
 	{% endif %}
 	{% endfor %}
 </ul>
+ -->
+
+ <ul class="socials">
+	{% for entry in site.data.settings.social_settings %}
+	  {% assign key = entry[0] %}
+	  {% assign url = entry[1] %}
+	  {% if url != '' %}
+		{% assign icon = key | remove: '_url' %}
+		<li class="socials__item">
+		  <a href="{{ url }}" target="_blank" class="socials__item__link"
+			 title="{% if icon == 'resume' %}View Resume{% elsif icon == 'email' %}Send Email{% else %}{{ icon | replace: '-', ' ' | capitalize }}{% endif %}">
+			<i class="{% if icon == 'resume' or icon == 'email' %}fas{% else %}fab{% endif %}
+					  fa-{% if icon == 'facebook' %}facebook-f
+						   {% elsif icon == 'resume' %}file-alt
+						   {% elsif icon == 'email' %}envelope
+						   {% else %}{{ icon }}{% endif %}" 
+			   aria-hidden="true"></i>
+		  </a>
+		</li>
+	  {% endif %}
+	{% endfor %}
+  </ul>
+  
