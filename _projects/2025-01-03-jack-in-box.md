@@ -32,7 +32,7 @@ g_b_right = transformation_matrix_sym(0, box_length/2, 0)
 g_b_left = transformation_matrix_sym(0, -box_length/2, 0)
 
 g_w_top = g_wb * g_b_top
-g_w_bottom = g_wb * g_b_bottom
+g_w_bottom = g_wb * g_b_bottom 
 g_w_right = g_wb * g_b_right
 g_w_left = g_wb * g_b_left
 

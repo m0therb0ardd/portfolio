@@ -46,7 +46,7 @@ A ROS2 package was developed to:
 - Handle game state transitions.
 
 ---
-
+ 
 ### System Flow
 
 #### Table Calibration

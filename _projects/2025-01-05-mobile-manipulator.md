@@ -39,8 +39,8 @@ The outputs predicted the next configuration. The transformation matrix for the 
 #### **3. Feedforward Control**
 The `FeedbackControl` function was implemented to compute the kinematic task-space feedforward and feedback control law. This method involved:
 - Comparing the current end-effector configuration with the reference configuration at the current and next time steps.
-- Deriving the commanded end-effector twist.
-- Converting the commanded twist into wheel and arm joint speeds using the pseudo-inverse of the mobile manipulator Jacobian.
+- Deriving the commanded end-effector twist. 
+- Converting the commanded twist into wheel and arm joint speeds using the pseudo-inverse of the mobile manipulator Jacobian. 
 
 ---
 
