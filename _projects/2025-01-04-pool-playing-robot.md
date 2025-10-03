@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Pool-Playing 7 DoF Robot"
-subtitle: "ROS2, Python, OpenCV"
+subtitle: "ROS2, Python, Computer Vision, Trajectory Planning, Force Control"
 date: 2024-01-01
 description: "This project demonstrates the Franka Emika robot playing pool, using computer vision to identify and pocket balls dynamically."
 #featured_image: "/assets/images/fran_cropped.jpg" 
