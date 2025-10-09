@@ -6,10 +6,22 @@ featured_image: /images/demo/demo-landscape.jpg
 ---
 
 <div class="content-wrap">
+  <style>
+    /* Hide the automatically generated page title */
+    h1:first-of-type {
+      display: none;
+    }
+  </style>
+  
   <div class="about-container">
 
     <!-- Text Section -->
     <div class="about-text">
+      <h1>About</h1>
+      <h2>About</h2>
+      <h4>moving and making</h4>
+
+      
       <p>
         I earned my Bachelor of Science in Operations Research from Columbia University, where I focused on optimization techniques and decision-making frameworks to design systems that facilitate the efficient movement of people through space. This foundation deepened my fascination with movement and embodiment—how we navigate and express ourselves within physical spaces and through our bodies.
       </p>
@@ -23,7 +35,7 @@ featured_image: /images/demo/demo-landscape.jpg
       </p>
 
       <p>
-        If you’re interested in collaborating, I’d love to connect!
+        If you're interested in collaborating, I'd love to connect!
       </p>
 
       <!-- Resume Button -->
@@ -35,9 +47,17 @@ featured_image: /images/demo/demo-landscape.jpg
     </div>
 
     <!-- Photo Section -->
+    <br><br> <!-- adds visual space -->
+
     <div class="about-photo">
-      <img src="{{ site.baseurl }}/assets/images/bio_photo.png" alt="Catherine Maglione" />
-    </div>
+      <img src="{{ site.baseurl }}/assets/images/catherine_and_kiki.jpg" alt="Catherine Maglione" />
+      <br><br> <!-- adds visual space -->
+      <img src="{{ site.baseurl }}/assets/images/kiki.jpg" alt="Catherine Maglione" />
+      <br><br> <!-- adds visual space -->
+       <img src="{{ site.baseurl }}/assets/images/red.png" alt="Catherine Maglione" />
+      <br><br> <!-- adds visual space -->
+
+    
 
   </div>
 </div>
@@ -47,7 +67,7 @@ featured_image: /images/demo/demo-landscape.jpg
     display: inline-block;
     padding: 10px 20px;
     color: #fff;
-    background-color: #0C5DF2;
+    background-color: #333333;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -55,7 +75,7 @@ featured_image: /images/demo/demo-landscape.jpg
   }
 
   .button:hover {
-    background-color: #0848c0;
+    background-color: #555555;
   }
 
   .about-container {
