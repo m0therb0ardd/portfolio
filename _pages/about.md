@@ -2,7 +2,7 @@
 title: 
 subtitle: 
 description: Currently pursuing a Master of Science in Robotics at Northwestern 
-featured_image: /images/demo/demo-landscape.jpg
+featured_image: /assets/images/catherine_and_kiki.jpg
 ---
 
 <div class="content-wrap">
